@@ -1,0 +1,8 @@
+services:
+  web:
+    image: ghcr.io/code-with-mehdi/wordpress:php8.2-apache
+    ports:
+      - 2000:80
+    volumes:
+      - .:/var/www/html:Z
+

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "vazir";
+    src: url(./font/Bilderberg-3945246/Bilderberg\ Italic\ TTF.ttf);
+    /* src: url(./font/Royale-Amoure-1829947/Royale\ Amoure.ttf); */
+}
+@font-face {
+    font-family: "vazirr";
+    src: url(./font/BDavat.ttf);
+    src: url(./font/BDavat.woff);
+    /* src: url(./font/Royale-Amoure-1829947/Royale\ Amoure.ttf); */
+}
+
+

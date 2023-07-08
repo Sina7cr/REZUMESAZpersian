@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styleLOG.css">
+    <script src="./city.js"></script>
+</head>
+<body>
+    <div class="form">
+        <h1>REZOME WEB</h1>
+        <p>rezome log for work</p>
+    </div>
+   <div class="ei">
+    <a href="./index.html" >خانه</a>
+    <a href="./indexLOG.html" class="loglink">ورود</a>
+    <a href="./indexDARBARE.html">درباره ما</a>
+  </div>
+  <img src="./image/avatar.png" 
+  alt="avatar" class="avatar">
+  <div>
+    <form class="log" action="./back.php" method="post">
+        <h2>فرم رزومه برای ورود</h2>
+        <p id="hoshdar">لطفا از حروف فارسی استفاده کنید</p>
+
+        <form action="./back.php" method="post">
+        <div class="sxdiv">
+            <label class="label" for="gender">جنسیت خود را مشخص کنید</label>
+            
+            <input  name="radioG" class="radiobox" type="radio"  value="مرد">مرد<br>
+            <input name="radioG" class="radiobox" type="radio"  value="زن"> زن<br>
+            </div>
+        <input name="nametext" id="namebox" type="text" placeholder="نام و نام خانوادگی خود را وارد کنید">
+        <!-- <input type="radio" name="sx" value="مرد"><input type="radio" name="sx" value="زن"> -->
+        <input name="date" id="datebox" type="date" placeholder="تاریخ تولد خود را مشخص کنید">
+        <input name="number" id="telbox" type="tel" placeholder="۰۹**-***-****" minlength="11" maxlength="11" step="1.5" >
+        <div class="selectdiv">
+        <select name="pets" class="select" >
+            <option value="زیر سیکل">لطفا مقطع تحصیلی خود را انتخاب کنید</option>
+            <option value="سیکل">سیکل</option>
+            <option value="دیپلم">دیپلم</option>
+            <option value="فوق دیپلم">فوق دیپلم</option>
+            <option value="لیسانس">لیسانس</option>
+            <option value="فوق لیسانس">فوق لیسانس</option>
+            <option value="دکترا">دکترا</option>
+            <option value="فوق دکترا">فوق دکترا</option>
+        </select>
+        </div>
+    <div class="cityselectdiv">
+        <select name="state" onChange="iranwebsv(this.value);" class="cityselect">
+            <option value="0">لطفا استان خود را انتخاب نمایید</option>
+            <option value="1">تهران</option>
+            <option value="2">گیلان</option>
+            <option value="3">آذربایجان شرقی</option>
+            <option value="4">خوزستان</option>
+            <option value="5">فارس</option>
+            <option value="6">اصفهان</option>
+            <option value="7">خراسان رضوی</option>
+            <option value="8">قزوین</option>
+            <option value="9">سمنان</option>
+            <option value="10">قم</option>
+            <option value="11">مرکزی</option>
+            <option value="12">زنجان</option>
+            <option value="13">مازندران</option>
+            <option value="14">گلستان</option>
+            <option value="15">اردبیل</option>
+            <option value="16">آذربایجان غربی</option>
+            <option value="17">همدان</option>
+            <option value="18">کردستان</option>
+            <option value="19">کرمانشاه</option>
+            <option value="20">لرستان</option>
+            <option value="21">بوشهر</option>
+            <option value="22">کرمان</option>
+            <option value="23">هرمزگان</option>
+            <option value="24">چهارمحال و بختیاری</option>
+            <option value="25">یزد</option>
+            <option value="26">سیستان و بلوچستان</option>
+            <option value="27">ایلام</option>
+            <option value="28">کهگلویه و بویراحمد</option>
+            <option value="29">خراسان شمالی</option>
+            <option value="30">خراسان جنوبی</option>
+            <option value="31">البرز</option>
+        </select>
+    </div>
+    <div class="cityziRdiv">
+        <select name="city" id="cityziR">
+		  <option value="0">لطفا شهر خود را انتخاب نمایید</option>
+	    </select>
+    </div>
+    <textarea name="adres" id="adres" cols="30" rows="10" placeholder="ادرس دقیق محل زندگی خود را بنویسید"></textarea>
+    <input name="maharat" type="text" id="maharat" placeholder="مهارت های شما:">
+    <label class="label" for="filesel">عکس خود را بارگزاری کنید</label>
+    <input name="img" id="file" name="filesel" type="file" accept="image/*">  
+    <input type="submit" value="ساخت رزومه" id="logbutton">
+ </form>
+</body>
+</html>

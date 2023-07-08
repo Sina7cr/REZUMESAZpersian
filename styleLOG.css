@@ -1,0 +1,317 @@
+@font-face {
+    font-family: "vazirusa";
+    src: url(./font/Orange-Juice-8151892/Orange\ Juice.ttf);
+}
+@font-face {
+    font-family: "vazirr";
+    src: url(./font/BFarnaz.woff);
+    src: url(./font/BFarnaz.ttf);
+    /* src: url(./font/Royale-Amoure-1829947/Royale\ Amoure.ttf); */
+}
+
+body{
+    /* font-size: 2rem; */
+    font-family: vazirr;
+    background-image: url("image/image.jpg");
+    background-size: cover;
+}
+.form{
+    color: white;
+    padding: 2px;
+background: linear-gradient(50deg,red 2%,blue 80%);
+border-top-right-radius: 50px;
+line-height: 5rem;
+text-align: center;
+font-family: vazirusa;
+font-size: 2rem;
+}
+
+.ei{
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+    border-bottom-left-radius: 50px;
+    direction: rtl;
+    font-size: 2rem;  
+     
+}
+.ei a{
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    
+}
+.ei a.test,.ei a:hover{
+    background: rgb(129, 126, 126);
+}
+#namebox{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 20px;
+}
+#datebox{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: ltr;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 50px;
+}
+#telbox{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: ltr;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 50px;
+    letter-spacing: 1rem;
+}
+.select{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 20px;
+}.selectdiv{
+    padding-top: 50px;
+}
+
+.cityselect{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 20px;
+}.cityselectdiv{
+    padding-top: 50px;
+}
+
+#cityziR{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 20px;
+}.cityziRdiv{
+    padding-top: 50px;
+}
+#adres{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 40px;
+}
+#maharat{
+    width: 350px;
+    height: 50px;
+    display: block;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: vazirr;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding-top: 40px;
+}
+.sxdiv{
+ color: #fff;
+ font-size: 2rem;
+ direction: rtl;
+ margin-right: 340px;
+}
+#file{
+    direction: ltr;
+    /* position: relative;
+    top: 30px; */
+    margin-top: 50px;
+    cursor: pointer;
+    color: white;
+    /* width: auto;
+    height: auto; */
+    color: rgb(255, 255, 255);
+    animation: idenn 1000ms infinite;
+    border-radius: 20px;
+    
+    /* border: 1px solid #ccc; */
+}@keyframes idenn {
+    0% {
+color: orange;
+}
+50% {
+color: red;
+}
+100% {
+color: blue;
+}
+}
+
+#file:hover{
+@keyframes iden {
+    0% {
+color: orange;
+}
+50% {
+color: red;
+}
+100% {
+color: blue;
+}
+}
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left:900px;
+    top: 50px;
+    background-position: center;
+    clear: both;
+    z-index: 2;
+    background-position: center;
+}
+.log{
+    width: 700px;
+    height: 1300px;
+    margin-left: 700px;
+    margin-top: 50px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    opacity: 0.8;
+    padding: 35px;
+    margin: auto;
+    
+    
+    /* clear: both; */
+}
+h2{  
+    margin: 0;
+    margin-right: -10px;
+    padding: 0 0 20px;
+    text-align: right;
+    font-size: 22px;
+    /* font-weight: bold; */
+    direction: rtl;
+    color: linear-gradient(red,blue);
+    font-size: 2rem;
+    
+}
+p#hoshdar{
+    margin: 0;
+    position: relative;
+    top: -50px;
+    color:red;
+    animation: iden 2000ms infinite;
+    font-size: 1.3rem;
+}
+
+.label{
+    direction: rtl;
+    font-size:1.2rem;
+} .radiobox{
+        display: inline;
+    }
+@keyframes iden {
+    0% {
+color: orange;
+}
+50% {
+color: red;
+}
+100% {
+color: blue;
+}
+}
+#logbutton{
+    position: relative;
+    left: 200px;
+    bottom: -200px;
+    width: 300px;
+    height: 150px;
+    color: white;
+    background: rgb(42, 36, 36);
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: vazirr;
+    text-shadow: 2px 2px rgb(197, 0, 0);
+}
+input:invalid {
+    border: 20px dashed red;
+  }
+  input:valid {
+    border: 20px solid black;
+  }
+/* p#hoshdar:hover{
+    color:rgb(4, 23, 196);
+    font-size: 1.5rem;
+} */
+
+
+
+/* a {
+    width: 150px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: cyan;
+} */

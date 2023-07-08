@@ -1,0 +1,226 @@
+
+@font-face {
+    font-family: "vazirr";
+    src: url(./font/Bilderberg-3945246/Bilderberg\ Italic\ OTF.otf);
+   
+    /* src: url(./font/Royale-Amoure-1829947/Royale\ Amoure.ttf); */
+}
+@font-face {
+    font-family: "vazir";
+    src: url(font/BFarnaz.ttf);
+}
+@font-face {
+  font-family: "vazir3";
+  src: url(font/BBaran.ttf);
+
+}
+
+body{
+    font-size: 2rem;
+    font-family: vazir;
+    background-image: url("./image/image.jpg");
+ 
+}
+
+#logbut{
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 150px;
+    width: 400px;
+    font-variant: inherit;
+    height: 130px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px red;
+    opacity: 0.85;
+    background-color: blue;
+    color: white;
+    font-size: 2.5rem;
+    font-family: vazir;
+    /* height: 150px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}#logbut:hover{
+    background-color: red;
+    box-shadow: 5px 5px 5px blue;
+}
+#subbk{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;top: 100px;
+}
+#form{
+    color: white;
+    padding: 2px;
+background: linear-gradient(50deg,red 2%,blue 80%);
+border-top-right-radius: 50px;
+line-height: 5rem;
+text-align: center;
+}
+.ei{
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+    border-bottom-left-radius: 50px;
+    direction: rtl;
+     
+}
+.ei a{
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    
+}
+.ei a.test,.ei a:hover{
+    background: rgb(129, 126, 126);
+}
+/* .ei a:focus{
+    background-color: rgb(0, 73, 181);
+} */
+
+#page{
+    width: 300px;
+    height: 300px;
+    background-color: #fce477;
+    margin: auto;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.logbtnf{
+    width: auto;
+    height: auto;
+    position: relative;top: -100px;
+
+}
+
+
+h2 {
+    text-align: center;
+    transform: scale(0.94);
+    animation: scale 1s forwards cubic-bezier(0.5, 1, 3, 1);
+    color: white;
+    background: linear-gradient(10deg,red 10%,blue 90%);
+    border-radius: 10px;
+    /* font-weight: lighter; */
+    font-size: 2rem;
+
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  span {
+    display: inline-block;
+    opacity: 0;
+    font-family: vazir3;
+    filter: blur(5px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(7) {
+    animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(8) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(9) {
+    animation: fade-in 0.8s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(10) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(11) {
+    animation: fade-in 0.8s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(12) {
+    animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(13) {
+    animation: fade-in 0.8s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(14) {
+    animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(15) {
+    animation: fade-in 0.8s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(16) {
+    animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(17) {
+    animation: fade-in 0.8s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(18) {
+    animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+
+  /* theme /////*/
+  .darkmode{
+    background-image: url("./image/Similar\ Desktop\ black\ and\ white\ flower\ picture\ wallpaper.jpg"); 
+    background-size: cover;
+}
+.darkmodeform{
+    background: linear-gradient(50deg,rgb(170, 0, 255) 2%,rgb(255, 213, 0) 80%);
+}
+.darkmodeh2{
+    color: black;
+}
+.darkmode3{
+    color: black;
+}
+.darkmode4{
+    color: black;
+}
+.darkmode5{
+    color: black;
+}
+
+  
+
